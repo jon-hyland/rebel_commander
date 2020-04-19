@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rebel Commander - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Rebel Commander.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Storage\Rebel Commander\alpha.cpp"
+"D:\Storage\Rebel Commander\bmp.cpp"
+"D:\Storage\Rebel Commander\bsprite.cpp"
+"D:\Storage\Rebel Commander\csprite.cpp"
+"D:\Storage\Rebel Commander\ddsetup.cpp"
+"D:\Storage\Rebel Commander\debugout.cpp"
+"D:\Storage\Rebel Commander\fire.cpp"
+"D:\Storage\Rebel Commander\fireman.cpp"
+"D:\Storage\Rebel Commander\input.cpp"
+"D:\Storage\Rebel Commander\levels.cpp"
+"D:\Storage\Rebel Commander\loadall.cpp"
+"D:\Storage\Rebel Commander\logo.cpp"
+"D:\Storage\Rebel Commander\main.cpp"
+"D:\Storage\Rebel Commander\menu.cpp"
+"D:\Storage\Rebel Commander\object.cpp"
+"D:\Storage\Rebel Commander\objman.cpp"
+"D:\Storage\Rebel Commander\plot.cpp"
+"D:\Storage\Rebel Commander\powerup.cpp"
+"D:\Storage\Rebel Commander\pwrupman.cpp"
+"D:\Storage\Rebel Commander\random.cpp"
+"D:\Storage\Rebel Commander\sbmp.cpp"
+"D:\Storage\Rebel Commander\ship.cpp"
+"D:\Storage\Rebel Commander\sound.cpp"
+"D:\Storage\Rebel Commander\stars.cpp"
+"D:\Storage\Rebel Commander\timer.cpp"
+"D:\Storage\Rebel Commander\title.cpp"
+"D:\Storage\Rebel Commander\view.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp" 
+Creating temporary file "F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+ddraw.lib dinput8.lib dxguid.lib dsound.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Rebel Commander.pdb" /machine:I386 /out:"Release/Rebel Commander.exe" 
+".\Release\alpha.obj"
+".\Release\bmp.obj"
+".\Release\bsprite.obj"
+".\Release\csprite.obj"
+".\Release\ddsetup.obj"
+".\Release\debugout.obj"
+".\Release\fire.obj"
+".\Release\fireman.obj"
+".\Release\input.obj"
+".\Release\levels.obj"
+".\Release\loadall.obj"
+".\Release\logo.obj"
+".\Release\main.obj"
+".\Release\menu.obj"
+".\Release\object.obj"
+".\Release\objman.obj"
+".\Release\plot.obj"
+".\Release\powerup.obj"
+".\Release\pwrupman.obj"
+".\Release\random.obj"
+".\Release\sbmp.obj"
+".\Release\ship.obj"
+".\Release\sound.obj"
+".\Release\stars.obj"
+".\Release\timer.obj"
+".\Release\title.obj"
+".\Release\view.obj"
+]
+Creating command line "link.exe @F:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp"
+<h3>Output Window</h3>
+Compiling...
+alpha.cpp
+bmp.cpp
+bsprite.cpp
+csprite.cpp
+ddsetup.cpp
+debugout.cpp
+F:\DXSDK\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+fire.cpp
+fireman.cpp
+input.cpp
+F:\DXSDK\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+levels.cpp
+loadall.cpp
+F:\DXSDK\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+logo.cpp
+main.cpp
+F:\DXSDK\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+menu.cpp
+object.cpp
+objman.cpp
+plot.cpp
+powerup.cpp
+pwrupman.cpp
+random.cpp
+sbmp.cpp
+ship.cpp
+sound.cpp
+stars.cpp
+timer.cpp
+title.cpp
+view.cpp
+Linking...
+LINK : warning LNK4089: all references to "GDI32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+Rebel Commander.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

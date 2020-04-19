@@ -1,0 +1,16 @@
+#ifndef __DEFINES_H__
+#define __DEFINES_H__
+
+
+#define SCREEN_WIDTH 640
+#define SCREEN_HEIGHT 480
+#define COLORS 256
+#define COLOR_DEPTH 8
+#define TRANSPARENT_COLOR 253
+#define WORLD_WIDTH 1280
+#define WORLD_HEIGHT 480
+#define CONTAINED_SCREEN_LEFT 220
+#define CONTAINED_SCREEN_RIGHT 860
+#define STAR_COUNT 1000
+
+#endif

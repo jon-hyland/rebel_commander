@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rebel Commander - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP61.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Rebel Commander.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Rebel Commander\ship.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP61.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP62.tmp" with contents
+[
+ddraw.lib dinput8.lib dxguid.lib dsound.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Rebel Commander.pdb" /debug /machine:I386 /out:"Debug/Rebel Commander.exe" /pdbtype:sept 
+".\Debug\bmp.obj"
+".\Debug\bsprite.obj"
+".\Debug\convert.obj"
+".\Debug\csprite.obj"
+".\Debug\ddsetup.obj"
+".\Debug\disetup.obj"
+".\Debug\fire.obj"
+".\Debug\fireman.obj"
+".\Debug\main.obj"
+".\Debug\object.obj"
+".\Debug\objman.obj"
+".\Debug\plot.obj"
+".\Debug\random.obj"
+".\Debug\sbmp.obj"
+".\Debug\ship.obj"
+".\Debug\stars.obj"
+".\Debug\timer.obj"
+".\Debug\view.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP62.tmp"
+<h3>Output Window</h3>
+Compiling...
+ship.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Rebel Commander.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

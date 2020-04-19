@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rebel Commander - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Rebel Commander.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Game\Rebel Commander v0.3a\bmp.cpp"
+"E:\Game\Rebel Commander v0.3a\bsprite.cpp"
+"E:\Game\Rebel Commander v0.3a\convert.cpp"
+"E:\Game\Rebel Commander v0.3a\csprite.cpp"
+"E:\Game\Rebel Commander v0.3a\ddsetup.cpp"
+"E:\Game\Rebel Commander v0.3a\disetup.cpp"
+"E:\Game\Rebel Commander v0.3a\fire.cpp"
+"E:\Game\Rebel Commander v0.3a\fireman.cpp"
+"E:\Game\Rebel Commander v0.3a\main.cpp"
+"E:\Game\Rebel Commander v0.3a\object.cpp"
+"E:\Game\Rebel Commander v0.3a\objman.cpp"
+"E:\Game\Rebel Commander v0.3a\plot.cpp"
+"E:\Game\Rebel Commander v0.3a\random.cpp"
+"E:\Game\Rebel Commander v0.3a\sbmp.cpp"
+"E:\Game\Rebel Commander v0.3a\ship.cpp"
+"E:\Game\Rebel Commander v0.3a\stars.cpp"
+"E:\Game\Rebel Commander v0.3a\timer.cpp"
+"E:\Game\Rebel Commander v0.3a\view.cpp"
+]
+Creating command line "cl.exe @E:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp" 
+Creating temporary file "E:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+ddraw.lib dinput8.lib winmm.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Rebel Commander.pdb" /machine:I386 /out:"Release/Rebel Commander.exe" 
+".\Release\bmp.obj"
+".\Release\bsprite.obj"
+".\Release\convert.obj"
+".\Release\csprite.obj"
+".\Release\ddsetup.obj"
+".\Release\disetup.obj"
+".\Release\fire.obj"
+".\Release\fireman.obj"
+".\Release\main.obj"
+".\Release\object.obj"
+".\Release\objman.obj"
+".\Release\plot.obj"
+".\Release\random.obj"
+".\Release\sbmp.obj"
+".\Release\ship.obj"
+".\Release\stars.obj"
+".\Release\timer.obj"
+".\Release\view.obj"
+]
+Creating command line "link.exe @E:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmp.cpp
+bsprite.cpp
+convert.cpp
+csprite.cpp
+ddsetup.cpp
+disetup.cpp
+e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+fire.cpp
+E:\Game\Rebel Commander v0.3a\fire.cpp(67) : warning C4101: 'ydelta' : unreferenced local variable
+E:\Game\Rebel Commander v0.3a\fire.cpp(98) : warning C4101: 'surface' : unreferenced local variable
+E:\Game\Rebel Commander v0.3a\fire.cpp(95) : warning C4101: 't' : unreferenced local variable
+E:\Game\Rebel Commander v0.3a\fire.cpp(96) : warning C4101: 'y' : unreferenced local variable
+fireman.cpp
+main.cpp
+e:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+E:\Game\Rebel Commander v0.3a\main.cpp(186) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Game\Rebel Commander v0.3a\main.cpp(187) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+object.cpp
+objman.cpp
+plot.cpp
+random.cpp
+sbmp.cpp
+ship.cpp
+stars.cpp
+timer.cpp
+view.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Rebel Commander.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

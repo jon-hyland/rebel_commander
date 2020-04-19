@@ -1,0 +1,23 @@
+To compile a DirectX 8.1 application...
+
+1. Install Visual C++ 6
+
+2. Install Visual Studio 6 Servive Pack 5 or higher
+
+3. Install Microsoft DirectX 8.1 SDK (Software Development Kit) 
+   - C:\DXSDK\ for easy access
+   - Retail Mode not Debug
+
+4. Set Visual C++ compiler paths (once):
+   - Open Visual C++
+   - Tools/Options/Directories
+   - for "include files" add "c:\dxsdk\include" to top of list
+   - for "library files" add "c:\dxsdk\lib" to top of list
+
+5. Set project settings (for each new project)
+   - create new Win32 application
+   - Project/Settings/Link (cat. General)
+   - in Project Options box add to top of list: 
+     "ddraw.lib dinput8.lib dxguid.lib dsound.h winmm.lib"
+     + to Object/Library
+	

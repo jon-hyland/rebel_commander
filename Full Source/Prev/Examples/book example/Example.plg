@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Example - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1.MOR\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Example.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\Example\Bmp.cpp"
+"D:\Game\Example\Bsprite.cpp"
+"D:\Game\Example\Buttons.cpp"
+"D:\Game\Example\Csprite.cpp"
+"D:\Game\Example\ddsetup.cpp"
+"D:\Game\Example\Gtimer.cpp"
+"D:\Game\Example\Input.cpp"
+"D:\Game\Example\Joystick.cpp"
+"D:\Game\Example\Main.cpp"
+"D:\Game\Example\Objects.cpp"
+"D:\Game\Example\Objman.cpp"
+"D:\Game\Example\Psound.cpp"
+"D:\Game\Example\Random.cpp"
+"D:\Game\Example\Sbmp.cpp"
+"D:\Game\Example\Score.cpp"
+"D:\Game\Example\Sound.cpp"
+"D:\Game\Example\Text.cpp"
+"D:\Game\Example\Timer.cpp"
+"D:\Game\Example\Topscore.cpp"
+"D:\Game\Example\View.cpp"
+"D:\Game\Example\Ai.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1.MOR\LOCALS~1\Temp\RSP29.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1.MOR\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+ddraw.lib dsound.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Example.pdb" /debug /machine:I386 /out:"Debug/Example.exe" /pdbtype:sept 
+.\Debug\Bmp.obj
+.\Debug\Bsprite.obj
+.\Debug\Buttons.obj
+.\Debug\Csprite.obj
+.\Debug\ddsetup.obj
+.\Debug\Gtimer.obj
+.\Debug\Input.obj
+.\Debug\Joystick.obj
+.\Debug\Main.obj
+.\Debug\Objects.obj
+.\Debug\Objman.obj
+.\Debug\Psound.obj
+.\Debug\Random.obj
+.\Debug\Sbmp.obj
+.\Debug\Score.obj
+.\Debug\Sound.obj
+.\Debug\Text.obj
+.\Debug\Timer.obj
+.\Debug\Topscore.obj
+.\Debug\View.obj
+.\Debug\Ai.obj
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1.MOR\LOCALS~1\Temp\RSP2A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bmp.cpp
+Bsprite.cpp
+Buttons.cpp
+Csprite.cpp
+ddsetup.cpp
+Gtimer.cpp
+Input.cpp
+Joystick.cpp
+Main.cpp
+Objects.cpp
+Objman.cpp
+Psound.cpp
+Random.cpp
+Sbmp.cpp
+Score.cpp
+Sound.cpp
+Text.cpp
+Timer.cpp
+Topscore.cpp
+View.cpp
+Ai.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Example.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
